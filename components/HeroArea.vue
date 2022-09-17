@@ -22,8 +22,8 @@
             <p>
               I am a <strong>Front-end developer</strong> passionate about building great user experiences, using Javascript frameworks with SPA's and JAMstack sites.
             </p>
-            <a href="#" class="btn radius-btn">My projects</a>
-            <a href="#" class="btn radius-btn">About me</a>
+            <a href="/projects" class="btn radius-btn">My projects</a>
+            <a href="about" class="btn radius-btn">About me</a>
           </div>
           <!-- End Hero Caption -->
         </div>

@@ -1,6 +1,6 @@
 # clari - web designing with nux.js server
 
-> My awesome Nuxt.js project
+> My Nuxt.js project
 
 ## Build Setup
 
