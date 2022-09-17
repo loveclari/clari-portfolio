@@ -19,7 +19,7 @@
           <!-- Start About Detail -->
           <div class="about-details">
             <div class="section-title mb-50">
-              <h2>About Me</h2>
+              <h2>About Me<span class="dot">.</span></h2>
             </div>
             <p>
              My name is Clarissa Celestino, I am a front-end developer based in the San Francisco Bay Area.
@@ -27,7 +27,7 @@
              such as Doctor On Demand, Doctorbase and most recently Included Health.
             </p>
             <div class="download-btn mt-5">
-              <a class="btn radius-btn" href="#">Download Cv</a>
+              <a class="btn radius-btn" href="static/assets/CLARISSA-DEVELOPER.pdf" download>Download Cv</a>
             </div>
           </div>
           <!-- End About Detail -->

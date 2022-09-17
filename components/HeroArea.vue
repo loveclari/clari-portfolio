@@ -7,7 +7,7 @@
           <!-- Start Hero Caption -->
           <div class="hero-caption">
             <span class="subheading">Hi! I'm</span>
-            <h1>Clarissa.</h1>
+            <h1>Clarissa<span class="dot">.</span></h1>
             <div>
               I'm a
               <div id="typed-strings">

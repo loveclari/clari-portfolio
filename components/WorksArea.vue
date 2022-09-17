@@ -6,7 +6,7 @@
       <div class="row mb-50">
         <div class="col-lg-12">
           <div class="section-title">
-            <h2>My Projects</h2>
+            <h2>Projects<span class="dot">.</span></h2>
           </div>
         </div>
       </div>
