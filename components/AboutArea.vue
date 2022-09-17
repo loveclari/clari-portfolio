@@ -27,7 +27,7 @@
              such as Doctor On Demand, Doctorbase and most recently Included Health.
             </p>
             <div class="download-btn mt-5">
-              <a class="btn radius-btn" href="static/assets/CLARISSA-DEVELOPER.pdf" download>Download Cv</a>
+              <a class="btn radius-btn" href="https://main.d1pwntsldwf3qc.amplifyapp.com/about/static/assets/CLARISSA-DEVELOPER.pdfstatic/assets/CLARISSA-DEVELOPER.pdf" download>Download Cv</a>
             </div>
           </div>
           <!-- End About Detail -->
