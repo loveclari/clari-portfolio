@@ -8,7 +8,7 @@
           <div class="img-about">
             <img
               class="img-fluid"
-              src="assets/img/about/me.png"
+              src="https://develop.d5l343hyz5pa8.amplifyapp.com/assets/img/about/me.png"
               alt="abou me"
             />
           </div>
