@@ -36,7 +36,7 @@
               <div class="thumb">
                 <img
                   class="image img-fluid"
-                  src="assets/img/works/dod-site.png"
+                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/dod-site.png"
                   alt="work"
                 />
               </div>
@@ -57,7 +57,7 @@
               <div class="thumb">
                 <img
                   class="image  img-fluid"
-                  src="assets/img/works/storyboardart.png"
+                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/storyboardart.png"
                   alt="work"
                 />
               </div>
@@ -79,7 +79,7 @@
               <div class="thumb">
                 <img
                   class="image  img-fluid"
-                  src="assets/img/works/included-site.png"
+                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/included-site.png"
                   alt="work"
                 />
               </div>
@@ -103,7 +103,7 @@
               <div class="thumb">
                 <img
                   class="image  img-fluid"
-                  src="assets/img/works/pagination-search.png"
+                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/pagination-search.png"
                   alt="work"
                 />
               </div>
@@ -127,7 +127,7 @@
               <div class="thumb">
                 <img
                   class="image  img-fluid"
-                  src="assets/img/works/payment.png"
+                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/payment.png"
                   alt="work"
                 />
               </div>
@@ -148,7 +148,7 @@
               <div class="thumb">
                 <img
                   class="image  img-fluid"
-                  src="assets/img/works/conference-form.png"
+                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/conference-form.png"
                   alt="work"
                 />
               </div>
@@ -170,7 +170,7 @@
               <div class="thumb">
                 <img
                   class="image  img-fluid"
-                  src="assets/img/works/registrations.png"
+                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/registrations.png"
                   alt="work"
                 />
               </div>
