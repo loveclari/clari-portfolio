@@ -136,7 +136,7 @@
                 <h4>Web Developmet</h4>
                 <div class="cat">Included Health Payments API</div>
                 <div class="cat">React / GraphQl / Boostrap / Braintree API</div>
-                <a href="hKFo2SB2b2ZqMExxLWgyQWttZ05WZVJyYkxIbmVabVVKQVYzWKFupWxvZ2luo3RpZNkgZE1rREFXVGo0MWtSanktZUNtNUw1cDZ4czNsajFQSFSjY2lk2SBsNk1vd0hnd0xZY3ZLeVlIY21FM2JXdzB3MkNwdWtVSg" target="_blank">Live</a>
+                <a href="https://auth.grandrounds.com/login?state=hKFo2SBqUVVpMGk2ZHRBSjc2Y2xVQXBQbHhPTmpsem1oN0Q0WKFupWxvZ2luo3RpZNkgeks5a01NTUpta2tKVlQ5UFM5dG5uUk9yZ1pHZ09id2ejY2lk2SBsNk1vd0hnd0xZY3ZLeVlIY21FM2JXdzB3MkNwdWtVSg&client=l6MowHgwLYcvKyYHcmE3bWw0w2CpukUJ&protocol=oauth2&audience=grandrounds&platform=web&redirect_uri=https%3A%2F%2Fapp.grandrounds.com%2Fusers%2Fauth%2Fauth0%2Fcallback&response_type=code&scope=openid%20email" target="_blank">Live</a>
               </div>
             </div>
           </div>
