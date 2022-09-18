@@ -48,6 +48,30 @@ section {
   padding-bottom: 100px;
 }
 
+.images {
+  position: relative;
+}
+
+.images .bottom-image {
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  opacity: .9;
+  filter: url(#dropshadow);
+  transition: filter .15s linear;
+  animation: float-data-v-089ada0c 1.5s ease-in-out infinite alternate-reverse;
+}
+
+.images .top-image {
+  rotate: 107deg;
+  position: absolute;
+  top: 54px;
+  left: 0;
+  width: 100%;
+  opacity: .9;
+  z-index: 4;
+}
+
 .dot {
   color:#90acd1;
 }
@@ -104,7 +128,7 @@ section {
   width: 1.25rem;
   height: 1.25rem;
   margin-top: 0.125rem;
-  fill: var(--secondary);
+  fill: #90acd1;
   margin-left: 0.3125rem;
 }
 
@@ -395,12 +419,13 @@ ul, ol {
 }
 .hero-area .hero-img {
   float: right;
-}
-.hero-area .hero-img img {
   position: relative;
   right: -63px;
   height: 700px;
 }
+/* .hero-area .hero-img img {
+ 
+} */
 .hero-area .hero-shape {
   position: absolute;
   top: 13%;
@@ -498,17 +523,16 @@ h2.service-title {
   content: "SCROLL";
     position: absolute;
     top: 105%;
-    color: var(--secondary);
+    color: #e45447;
     font-size: .75rem;
-    font-family: var(--font-family-secondary);
     font-weight: 600;
     opacity: .75;
     right: 0;
     animation: 1.5s ease-in-out infinite alternate-reverse;
-    animation-timing-function: linear;
-    color: turquoise;
+    animation-timing-function: linear
 
 }
+
 @keyframes section-title {
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-100px); }
@@ -520,7 +544,7 @@ h2.service-title {
     top: 112%;
     width: 0.0625rem;
     height: 40vh;
-    background-color: var(--secondary);
+    background-color: #e45447;;
     opacity: .75;
     right: 20px;
 }
