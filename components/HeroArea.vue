@@ -27,7 +27,7 @@
           </div>
           <!-- End Hero Caption -->
         </div>
-        <div class="col-lg-6 d-none d-lg-block">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-lg-block">
           <!-- Hero Right Image -->
           <div class="hero-img images">
             <img data-v-089ada0c class="bottom-image" src="assets/img/hero/clari-dev.png" alt="Hero image" />

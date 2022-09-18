@@ -16,9 +16,7 @@
   .hero-area .hero-caption h1 {
     font-size: 55px;
   }
-  .hero-area .hero-img img {
-    right: 0px;
-  }
+  max-width: 637px;
 }
 @media (max-width: 991px) {
   .section-padding {
@@ -52,7 +50,7 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-area {
-    min-height: 600px;
+    min-height: 430px;
   }
   .hero-area .hero-caption p {
     margin-bottom: 54px;
@@ -62,10 +60,19 @@
   .hero-shape {
     padding: 10px 25px;
   }
+  .hero-area .hero-img {
+    right: 0px;
+    margin-top: 105px;
+    height: 600px;
+  }
+  .container {
+    max-width: 637px;
+  }
+  
 }
 @media (max-width: 767px) {
   .hero-area {
-    min-height: 600px;
+    min-height: 430px;
   }
   .hero-area .hero-caption h1 {
     font-size: 40px;
@@ -86,11 +93,25 @@
   #scrollUp {
     right: 16px;
   }
+  .btn{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .hero-area .hero-img {
+    right: 0px;
+    margin-top: 25px;
+    height: 300px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .hero-shape {
     top: 5%;
     left: 73%;
+  }
+  .hero-area .hero-img {
+    right: 0px;
+    margin-top: 25px;
+    height: 300px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
@@ -98,10 +119,20 @@
     max-width: 420px;
     margin: auto;
   }
+  .hero-area .hero-img {
+    right: 0px;
+    margin-top: 25px;
+    height: 300px;
+  }
 }
 @media (max-width: 590px) {
   .filters-content .grid .single-work:hover .overlay {
     top: 0;
     left: 0;
+  }
+  .hero-area .hero-img {
+    right: 0px;
+    margin-top: 25px;
+    height: 300px;
   }
 }
