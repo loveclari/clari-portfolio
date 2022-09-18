@@ -30,7 +30,7 @@
         <div class="col-lg-6 d-none d-lg-block">
           <!-- Hero Right Image -->
           <div class="hero-img images">
-            <img class="bottom-image" src="assets/img/hero/clari-dev.png" alt="Hero image" />
+            <img data-v-089ada0c class="bottom-image" src="assets/img/hero/clari-dev.png" alt="Hero image" />
             <img class="top-image" src="https://d3b1ak9ylguumf.cloudfront.net/stencil/public/static/images/wave-blob.svg?h=b9d69d25&v=2020-08-19.00"/>
           </div>
         </div>

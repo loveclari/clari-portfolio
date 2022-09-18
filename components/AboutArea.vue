@@ -33,8 +33,8 @@
              such as Doctor On Demand, Doctorbase and most recently Included Health.
             </p>
             <div class="download-btn mt-5">
-              <a class="download-link" data-v-57a6e264="" href="https://a.storyblok.com/f/95455/x/9125fc663b/cv_claudia_benito_en.pdf" target="_blank" rel="noopener">Download Resume <svg data-v-4ddcbc6a="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" 
-                class="link__arrow"><path data-v-4ddcbc6a="" d="M14.29,5.71L14.29,5.71c-0.39,0.39-0.39,1.02,0,1.41L18.17,11H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h15.18l-3.88,3.88 c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0l5.59-5.59c0.39-0.39,0.39-1.02,0-1.41L15.7,5.71 C15.32,5.32,14.68,5.32,14.29,5.71z"></path></svg></a>
+              <!-- <a class="download-link" data-v-57a6e264="" href="https://main.d1pwntsldwf3qc.amplifyapp.com/about/static/assets/CLARISSA-DEVELOPER.pdfstatic/assets/CLARISSA-DEVELOPER.pdf" target="_blank" rel="noopener">Download Resume <svg data-v-4ddcbc6a="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" 
+                class="link__arrow"><path data-v-4ddcbc6a="" d="M14.29,5.71L14.29,5.71c-0.39,0.39-0.39,1.02,0,1.41L18.17,11H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h15.18l-3.88,3.88 c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0l5.59-5.59c0.39-0.39,0.39-1.02,0-1.41L15.7,5.71 C15.32,5.32,14.68,5.32,14.29,5.71z"></path></svg></a> -->
               <a class="btn radius-btn" href="https://main.d1pwntsldwf3qc.amplifyapp.com/about/static/assets/CLARISSA-DEVELOPER.pdfstatic/assets/CLARISSA-DEVELOPER.pdf" download>Download Resume</a>
             </div>
           </div>

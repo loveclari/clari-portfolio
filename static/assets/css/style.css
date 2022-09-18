@@ -73,7 +73,8 @@ section {
 }
 
 .dot {
-  color:#90acd1;
+  /* color:#90acd1; */
+  color: #e45447;
 }
 
 .fa-brands {
