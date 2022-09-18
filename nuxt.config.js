@@ -15,7 +15,7 @@ export default {
       }
     ],
     bodyAttrs: {
-      id: 'body',
+      id: "body"
     },
     link: [
       {
@@ -27,6 +27,11 @@ export default {
         rel: "stylesheet",
         href:
           "https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900"
+      },
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       },
 
       { rel: "stylesheet", href: "/assets/css/bootstrap.min.css" },
