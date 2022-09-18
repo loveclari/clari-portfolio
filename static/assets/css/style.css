@@ -270,6 +270,14 @@ ul, ol {
   line-height: 44px;
 }
 
+.section-start h2 {
+  text-align: right;
+}
+
+.section-career h2 {
+  text-align: left;
+}
+
 .section-title h2:before,
 .section-title h2:after {
   content: "";
@@ -544,15 +552,26 @@ h2.service-title {
   50%  { transform: translateY(-20px); }
   100% { transform: translateY(0); }
 }
+.paragraph-scroll{
+  padding-bottom: 0;
+  position: relative;
+}
 .paragraph-scroll::after{
   content: "";
     position: absolute;
     top: 112%;
     width: 0.0625rem;
-    height: 40vh;
+    height: 45vh;
     background-color: #e45447;;
     opacity: .75;
     right: 20px;
+}
+
+.creative {
+  padding-top: 30vh;
+}
+.other {
+  padding-top: 10vh;
 }
 .about-area .section-title h2::after, .about-area .section-title h2::before {
   left: 0;
@@ -561,7 +580,7 @@ h2.service-title {
   transform: translateX(0);
 }
 .about-area .img-about img {
-  outline: 10px solid #90acd1;
+  outline: 10px solid #e45447;
   outline-offset: -54px;
   border: 44px solid transparent;
   border-width: 0px 10px 0px 85px;
@@ -572,6 +591,8 @@ h2.service-title {
 }
 .about-area .about-details p {
  color: #dadada;
+ padding-top: 5px;
+ line-height: 27px;
 }
 .about-area .about-details .about-info li span {
   width: calc(100% - 130px);
@@ -1374,7 +1395,7 @@ textarea.form-control {
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   z-index: 9999;
-  background: #fff;
+  background: #90acd1;
 }
 
 /* Sticky end */
@@ -1384,10 +1405,12 @@ textarea.form-control {
 
 .header-sticky.sticky-bar.sticky .main-menu ul > li > a {
   padding: 25px 16px;
+  color: #232946;
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul > li > a:before {
   bottom: 11px;
+
 }
 
 .slicknav_menu .slicknav_icon-bar {
