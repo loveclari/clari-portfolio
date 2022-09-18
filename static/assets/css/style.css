@@ -761,6 +761,10 @@ h2.service-title {
   cursor: pointer;
   position: relative;
 }
+.filters-content a{
+  color:#172c66;
+  font-weight: 600;
+}
 .filters li::before {
   content: "";
   background: #e45447;
