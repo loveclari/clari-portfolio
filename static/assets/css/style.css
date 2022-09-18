@@ -520,7 +520,7 @@ h2.service-title {
   padding-top: 100px;
 
 }
-.about-area .section-title::before {
+.paragraph-scroll::before {
   content: "SCROLL";
     position: absolute;
     top: 105%;
@@ -529,17 +529,22 @@ h2.service-title {
     font-weight: 600;
     opacity: .75;
     right: 0;
-    animation: 1.5s ease-in-out infinite alternate-reverse;
+    animation: bounce 2.5s ease-in-out infinite alternate-reverse;
     animation-timing-function: linear
 
 }
 
-@keyframes section-title {
+.bounce { 
+  -webkit-animation-name: bounce; 
+  animation-name: bounce; 
+}
+
+@keyframes bounce {
   0%   { transform: translateY(0); }
-  50%  { transform: translateY(-100px); }
+  50%  { transform: translateY(-20px); }
   100% { transform: translateY(0); }
 }
-.about-area .section-title::after{
+.paragraph-scroll::after{
   content: "";
     position: absolute;
     top: 112%;
