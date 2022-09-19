@@ -561,7 +561,7 @@ h2.service-title {
     position: absolute;
     top: 112%;
     width: 0.0625rem;
-    height: 45vh;
+    height: 42vh;
     background-color: #e45447;;
     opacity: .75;
     right: 20px;
@@ -603,6 +603,7 @@ h2.service-title {
   color: #222222;
   width: 130px;
 }
+
 
 /* =================================== */
 /*    Resume Area Section

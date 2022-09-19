@@ -66,10 +66,10 @@
             <div class="section-start mb-50">
               <h2>The creative<span class="dot">.</span></h2>
             </div>
-            <p> I have always been a creative person. As a child I spent hours drawing, painting and creating, this was my happy medium. 
-              As I grew older I transfered this talent to a digital medium. I wanted more than to see what I created on a paper, now I wanted to see 
-              my creations on a web page. I decided to become a Web Developer and like my drawings, I grew this as a passion and a hobby.
-            </p>
+            <p> I have always been a creative person. As a child, I spent hours drawing, painting, and creating. </p>
+              <p>This was my happy place. As I grew older, I transferred this talent to a digital medium. </p>
+              <p>I wanted more than to see what I created on paper; now, I wanted to see my creations on a web page.</p>
+              <p>I decided to become a Web Developer, and like my drawings, I grew this as a passion and a hobby.</p>
           </div>
           <!-- End About Detail -->
         </div>
@@ -86,14 +86,13 @@
             <div class="section-career mb-50">
               <h2>The professional<span class="dot">.</span></h2>
             </div>
-            <p> My first job as a front-end developer started in 2017</p>
-              <p>At Doctor On Demand I was working with
-              Single Page Applications(SPA), We started with AngularJS, soon followed by Vue.js.</p> 
+            <p>As a Developer I have been working with
+              Single Page Applications(SPA), I started with AngularJS, soon followed by Vue.js. and now React.</p> 
               <p>I have also worked with JAMstack sites built with Nuxt.js (Vue.js), Contentful, Gatsby 
-              and many other content management systems (CMS). I have also deployed websites with AWS Amplify and Netfly.</p>
-              <p>Most recently I have been working with React.js and API's.</p>
-              <p>As a Front-end Developer I learned to be flexible with my tools and always look
-              for the best tool for the project at hand.
+              And many other content management systems (CMS). I have also deployed websites with AWS Amplify and Netfly.</p>
+              <p>Most recently, I have been working with React.js and APIs.</p>
+              <p>As a Front-end Developer, I learned to be flexible with my tools and always look
+              for the best tool for the project.
             </p>
           </div>
           <!-- End About Detail -->
@@ -104,7 +103,7 @@
           <div class="second-img">
             <img
               class="img-art"
-              src="/assets/img/about/professional.svg"
+              src="/assets/img/about/desk.svg"
               alt="about me"
             />
           </div>
@@ -136,10 +135,10 @@
             <div class="section-start mb-50">
               <h2>The athlete<span class="dot">.</span></h2>
             </div>
-            <p> I have a lot of hobbies but one thing I have always loved and keep as part of my regular life is working out and 
-              practicing physical activities. </p><p>I have recently run a 5K race which took me about 2 months to prepare. I also enjoy boxing,
-            jiujitsu, yoga, dancing.</p><p> Since I have to spend a lot of time in front of a computer I feel that being active helps to keep me healthy, 
-            but also I just truly enjoy moviment.
+            <p> I have a lot of hobbies, but one thing I have always loved and kept as part of my regular life is working out and 
+              practicing physical activities. </p><p>I recently ran a 5K race, which took me about 2 months to prepare for. I also enjoy boxing,
+            jiujitsu, yoga, and dancing.</p><p> Since I have to spend a lot of time in front of a computer, I feel that being active helps to keep me healthy, 
+            but also I just truly enjoy movement.
             </p>
           </div>
           <!-- End About Detail -->
