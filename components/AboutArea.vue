@@ -114,6 +114,39 @@
       </div>
     </div>
 
+     <!---hobbies-->
+
+    <div class="container other">
+      <div class="row align-items-center">
+        <div class="col-lg-6 d-none d-lg-block">
+          <!-- Start About Area Image -->
+          <div class="second-img">
+            <img
+              class="img-art"
+              src="/assets/img/about/exercise.svg"
+              alt="about me"
+            />
+          </div>
+          <!-- End About Area Image -->
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <!-- Start About Detail -->
+          <div  class="about-details">
+            <div class="section-start mb-50">
+              <h2>The athlete<span class="dot">.</span></h2>
+            </div>
+            <p> I have a lot of hobbies but one thing I have always loved and keep as part of my regular life is working out and 
+              practicing physical activities. </p><p>I have recently run a 5K race which took me about 2 months to prepare. I also enjoy boxing,
+            jiujitsu, yoga, dancing.</p><p> Since I have to spend a lot of time in front of a computer I feel that being active helps to keep me healthy, 
+            but also I just truly enjoy moviment.
+            </p>
+          </div>
+          <!-- End About Detail -->
+        </div>
+      </div>
+    </div>
+
     <!---end of sections-->
   </section>
   <!-- About Area End -->
