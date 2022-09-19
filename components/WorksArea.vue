@@ -46,6 +46,7 @@
                 <div class="cat">Doctor on Demand - main site</div>
                 <div class="cat">Vue.js / Less / AWS</div>
                 <a href="https://doctorondemand.com/" target="_blank">Live</a>
+                <a href="https://beta.doctorondemand.com/" target="_blank">Vue version</a>
               </div>
             </div>
           </div>
