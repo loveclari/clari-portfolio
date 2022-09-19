@@ -12,7 +12,7 @@
               I'm a
               <div id="typed-strings">
               <!-- Animated Text Writer -->
-              <span>Front-end Developer</span>
+              <span>Front-end Developer.</span>
               <span>Web Designer.</span>
               <span>Web Consultant.</span>
               <span>Email Developer.</span>
