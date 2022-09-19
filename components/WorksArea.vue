@@ -145,29 +145,6 @@
           <!-- end single work item -->
 
           <!-- start single work item -->
-          <div
-            class="single-work col-lg-4 col-md-6 col-sm-12 all react"
-          >
-            <div class="position-relative">
-              <div class="thumb">
-                <img
-                  class="image  img-fluid"
-                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/payment.png"
-                  alt="work"
-                />
-              </div>
-              <a class="overlay transition" href="#"></a>
-              <div class="short-info transition">
-                <h4>Web Developmet</h4>
-                <div class="cat">Included Health Payments API</div>
-                <div class="cat">React / GraphQl / Boostrap / Braintree API</div>
-                <a href="https://auth.grandrounds.com/login?state=hKFo2SBqUVVpMGk2ZHRBSjc2Y2xVQXBQbHhPTmpsem1oN0Q0WKFupWxvZ2luo3RpZNkgeks5a01NTUpta2tKVlQ5UFM5dG5uUk9yZ1pHZ09id2ejY2lk2SBsNk1vd0hnd0xZY3ZLeVlIY21FM2JXdzB3MkNwdWtVSg&client=l6MowHgwLYcvKyYHcmE3bWw0w2CpukUJ&protocol=oauth2&audience=grandrounds&platform=web&redirect_uri=https%3A%2F%2Fapp.grandrounds.com%2Fusers%2Fauth%2Fauth0%2Fcallback&response_type=code&scope=openid%20email" target="_blank">Live</a>
-              </div>
-            </div>
-          </div>
-          <!-- end single work item -->
-
-          <!-- start single work item -->
           <div class="single-work col-lg-4 col-md-6 col-sm-12 all vanilla">
             <div class="position-relative">
               <div class="thumb">
@@ -205,6 +182,29 @@
                 <div class="cat">Doctor on Demand Enterprise registrations</div>
                 <div class="cat">Angular.js - Vue.js</div>
                 <a href="https://patient.doctorondemand.com/register/?partner=walmart-care" target="_blank">Live</a>
+              </div>
+            </div>
+          </div>
+          <!-- end single work item -->
+
+                    <!-- start single work item -->
+                    <div
+            class="single-work col-lg-4 col-md-6 col-sm-12 all react"
+          >
+            <div class="position-relative">
+              <div class="thumb">
+                <img
+                  class="image  img-fluid"
+                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/payment.png"
+                  alt="work"
+                />
+              </div>
+              <a class="overlay transition" href="#"></a>
+              <div class="short-info transition">
+                <h4>Web Developmet</h4>
+                <div class="cat">Included Health Payments API</div>
+                <div class="cat">React / GraphQl / Boostrap / Braintree API</div>
+                <a href="https://auth.grandrounds.com/login?state=hKFo2SBqUVVpMGk2ZHRBSjc2Y2xVQXBQbHhPTmpsem1oN0Q0WKFupWxvZ2luo3RpZNkgeks5a01NTUpta2tKVlQ5UFM5dG5uUk9yZ1pHZ09id2ejY2lk2SBsNk1vd0hnd0xZY3ZLeVlIY21FM2JXdzB3MkNwdWtVSg&client=l6MowHgwLYcvKyYHcmE3bWw0w2CpukUJ&protocol=oauth2&audience=grandrounds&platform=web&redirect_uri=https%3A%2F%2Fapp.grandrounds.com%2Fusers%2Fauth%2Fauth0%2Fcallback&response_type=code&scope=openid%20email" target="_blank">Live</a>
               </div>
             </div>
           </div>
