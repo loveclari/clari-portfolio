@@ -792,7 +792,7 @@ h2.service-title {
 }
 
 .filters-content .grid .single-work:first-of-type, .filters-content .grid .single-work:nth-of-type(2), .filters-content .grid .single-work:nth-of-type(3), .grid .single-work:nth-of-type(4),
-.grid .single-work:nth-of-type(5), .grid .single-work:nth-of-type(6), .grid .single-work:nth-of-type(7), .grid .single-work:nth-of-type(8), .grid .single-work:nth-of-type(9) {
+.grid .single-work:nth-of-type(5), .grid .single-work:nth-of-type(6), .grid .single-work:nth-of-type(7), .grid .single-work:nth-of-type(8), .grid .single-work:nth-of-type(9), .grid .single-work:nth-of-type(10), .grid .single-work:nth-of-type(11), .grid .single-work:nth-of-type(12) {
   margin-bottom: 30px;
 }
 .filters-content .grid .single-work img {

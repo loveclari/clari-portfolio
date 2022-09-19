@@ -52,27 +52,6 @@
           </div>
           <!-- end single work item -->
 
-          <!-- start single work item -->
-          <div class="single-work col-lg-4 col-md-6 col-sm-12 all branding angular">
-            <div class="position-relative">
-              <div class="thumb">
-                <img
-                  class="image  img-fluid"
-                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/storyboardart.png"
-                  alt="work"
-                />
-              </div>
-              <a class="overlay transition" href="#"></a>
-              <div class="short-info transition">
-                <h4>Web Development</h4>
-                <div class="cat">Storyboard art application</div>
-                <div class="cat">CMS - Wordpress</div>
-                <a href="https://storyboardart.org/" target="_blank">Live</a>
-              </div>
-            </div>
-          </div>
-          </div>
-          <!-- end single work item -->
 
           <!-- start single work item -->
           <div class="single-work col-lg-4 col-md-6 col-sm-12 all branding">
@@ -95,6 +74,51 @@
           </div>
           <!-- end single work item -->
 
+
+          <!-- start single work item -->
+          
+          <div class="single-work col-lg-4 col-md-6 col-sm-12 all branding vue angular">
+            <div class="position-relative">
+              <div class="thumb">
+                <img
+                  class="image img-fluid"
+                  src="/assets/img/works/dashboard.png"
+                  alt="work"
+                />
+              </div>
+              <a class="overlay transition" href="#"></a>
+              <div class="short-info transition">
+                <h4>Web Developmet</h4>
+                <div class="cat">Doctor on Demand Member Application</div>
+                <div class="cat">Vue.js / AngularJS</div>
+                <a href="https://patient.doctorondemand.com/patient/#/home" target="_blank">Live</a>
+              </div>
+            </div>
+          </div>
+          <!-- end single work item -->
+
+
+          <!-- start single work item -->
+          <div class="single-work col-lg-4 col-md-6 col-sm-12 all branding angular">
+            <div class="position-relative">
+              <div class="thumb">
+                <img
+                  class="image  img-fluid"
+                  src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/works/storyboardart.png"
+                  alt="work"
+                />
+              </div>
+              <a class="overlay transition" href="#"></a>
+              <div class="short-info transition">
+                <h4>Web Development</h4>
+                <div class="cat">Storyboard art application</div>
+                <div class="cat">CMS - Wordpress</div>
+                <a href="https://storyboardart.org/" target="_blank">Live</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- end single work item -->
 
           <!-- start single work item -->
           <div
