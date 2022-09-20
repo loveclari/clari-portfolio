@@ -9,10 +9,10 @@
             <img
               class="img-fluid"
               src="https://main.d1pwntsldwf3qc.amplifyapp.com/assets/img/about/me.png"
-              alt="abou me"
+              alt="about me"
             />
             <div data-v-2520de62="" class="profile__wrapper">
-              <ul data-v-2520de62="" class="profile__links" style="transform: translate(-10px, -35px);">
+              <ul data-v-2520de62="" class="profile__links">
                 <li data-v-2520de62="" class="profile__link"><a data-v-2520de62="" href="https://www.linkedin.com/in/clarissacelestino/" target="_blank" rel="noopener" aria-label="Go to linkedin" class="profile__a"><i class="fa-brands fa-linkedin"></i></a></li>
                 <li data-v-2520de62="" class="profile__link"><a data-v-2520de62="" href="https://twitter.com/youloveclarissa" target="_blank" rel="noopener" aria-label="Go to twitter" class="profile__a"><i class="fa-brands fa-twitter"></i></a></li>
                 <li data-v-2520de62="" class="profile__link"><a data-v-2520de62="" href="https://github.com/loveclari" target="_blank" rel="noopener" aria-label="Go to github" class="profile__a"><i class="fa-brands fa-github"></i></a></li>
