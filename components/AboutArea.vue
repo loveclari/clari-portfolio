@@ -3,7 +3,7 @@
   <section class="about-area section-padding sky-blue paragraph" id="about">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6 d-none d-lg-block">
+        <div class="col-lg-6 col-md-12 d-lg-block">
           <!-- Start About Area Image -->
           <div class="img-about">
             <img
@@ -46,7 +46,7 @@
 
     <div class="container creative">
       <div class="row align-items-center">
-        <div class="col-lg-6 d-none d-lg-block">
+        <div class="col-lg-6 col-md-12 d-lg-block">
           <!-- Start About Area Image -->
           <div class="second-img">
             <img
@@ -78,8 +78,21 @@
 
     <!---- Career-->
 
+
     <div class="container other">
       <div class="row align-items-center">
+
+        <div class="col-md-12 d-lg-none">
+          <!-- Start About Area Image -->
+          <div class="second-img">
+            <img
+              class="img-art"
+              src="/assets/img/about/desk.svg"
+              alt="about me"
+            />
+          </div>
+          <!-- End About Area Image -->
+        </div>
         <div class="col-lg-6 col-md-12">
           <!-- Start About Detail -->
           <div  class="about-details">
@@ -117,7 +130,7 @@
 
     <div class="container other">
       <div class="row align-items-center">
-        <div class="col-lg-6 d-none d-lg-block">
+        <div class="col-lg-6 d-lg-block">
           <!-- Start About Area Image -->
           <div class="second-img">
             <img
