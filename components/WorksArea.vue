@@ -222,7 +222,7 @@
               <div class="short-info transition">
                 <h4>Web Developmet</h4>
                 <div class="cat">Weather API - Personal project</div>
-                <div class="cat">Javascript / Node.js / Express</div>
+                <div class="cat">Javascript / Node.js / Express.js</div>
                 <a href="https://github.com/loveclari/weather-app" target="_blank">Code</a>
               </div>
             </div>
