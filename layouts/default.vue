@@ -194,7 +194,7 @@ export default {
 
     function foo() {
       "use strict";
-      console.log("Cobra");
+      console.log("Clari's portfolio");
     }
 
     // Resume Navigation
