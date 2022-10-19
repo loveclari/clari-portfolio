@@ -11,9 +11,7 @@
                 <nav>
                   <ul id="navigation">
                     <li class="nav-item">
-                      <a class="nav-link transition" href="/">
-                        Home</a
-                      >
+                      <a class="nav-link transition" href="/"> Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link transition" href="/about">About</a>
@@ -22,9 +20,13 @@
                       <a class="nav-link transition" href="#resume">Resume</a>
                     </li> -->
                     <li class="nav-item">
-                      <a class="nav-link transition" href="/projects">Projects</a>
+                      <a class="nav-link transition" href="/projects"
+                        >Projects</a
+                      >
                     </li>
-
+                    <li class="nav-item">
+                      <a class="nav-link transition" href="/emails">Emails</a>
+                    </li>
                   </ul>
                 </nav>
               </div>
