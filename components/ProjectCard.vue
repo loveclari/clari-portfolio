@@ -75,7 +75,7 @@
                 <div class="thumb">
                   <img
                     class="image img-fluid"
-                    src="assets/img/works/email-mkt.png"
+                    src="/assets/img/works/email-mkt.png"
                     alt="work"
                   />
                 </div>
@@ -97,7 +97,7 @@
                 <div class="thumb">
                   <img
                     class="image img-fluid"
-                    src="assets/img/works/welcome-email.png"
+                    src="/assets/img/works/welcome-email.png"
                     alt="work"
                   />
                 </div>
@@ -119,7 +119,7 @@
                 <div class="thumb">
                   <img
                     class="image img-fluid"
-                    src="assets/img/works/visit-ih.png"
+                    src="/assets/img/works/visit-ih.png"
                     alt="work"
                   />
                 </div>
@@ -141,7 +141,7 @@
                 <div class="thumb">
                   <img
                     class="image img-fluid"
-                    src="assets/img/works/visit-dod-ih.png"
+                    src="/assets/img/works/visit-dod-ih.png"
                     alt="work"
                   />
                 </div>
