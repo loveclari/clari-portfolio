@@ -37,6 +37,7 @@ figure, header, nav, article, aside, footer, figcaption {
 html, body {
   height:100%;
   width:100%;
+  background-color: #232946;
 }
 
 section {
