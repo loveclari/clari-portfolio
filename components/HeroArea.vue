@@ -1,6 +1,6 @@
 <template>
   <!-- Welcome Area Start -->
-  <section class="hero-area sky-blue d-flex align-items-center">
+  <section class="hero-area d-flex align-items-center">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-12">
