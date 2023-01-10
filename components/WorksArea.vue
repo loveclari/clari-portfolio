@@ -209,7 +209,7 @@
           <!-- end single work item -->
 
           <!-- start single work item -->
-        <div class="single-work col-lg-4 col-md-6 col-sm-12 all react">
+        <div class="single-work col-lg-4 col-md-6 col-sm-12 all vanilla">
             <div class="position-relative">
               <div class="thumb">
                 <img
