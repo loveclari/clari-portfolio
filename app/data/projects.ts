@@ -31,6 +31,31 @@ export const projectFilters: { value: ProjectTag | "all"; label: string }[] = [
 
 export const projects: Project[] = [
   {
+    id: "pixelculture",
+    kind: "Web Design & Development",
+    title: "PixelCulture — web design and development agency",
+    stack: ["React", "JavaScript", "Vercel"],
+    image: "/assets/img/works/pixelculture.jpg",
+    tags: ["react", "branding"],
+    links: [{ label: "Live", href: "https://www.pixelculture.org/" }],
+  },
+  {
+    id: "publishpass",
+    kind: "Product Development",
+    title: "PublishPass — pre-publish QA for marketing teams",
+    stack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Supabase",
+      "Stripe",
+      "Claude AI",
+    ],
+    image: "/assets/img/works/publishpass.jpg",
+    tags: ["react"],
+    links: [{ label: "Live", href: "https://publishguard.vercel.app/" }],
+  },
+  {
     id: "noontime-concerts",
     kind: "Web Development",
     title: "Noontime Concerts — live streaming and memberships",
@@ -51,6 +76,15 @@ export const projects: Project[] = [
         href: "https://www.pixelculture.org/portfolio/noontime-concerts",
       },
     ],
+  },
+  {
+    id: "healthy-work",
+    kind: "Web Development",
+    title: "Healthy Work Campaign — public health nonprofit",
+    stack: ["WordPress", "Divi", "JavaScript"],
+    image: "/assets/img/works/healthy-work.jpg",
+    tags: ["branding"],
+    links: [{ label: "Live", href: "https://www.healthywork.org/" }],
   },
   {
     id: "dod-site",
