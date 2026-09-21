@@ -1,0 +1,208 @@
+export type ProjectTag =
+  | "branding"
+  | "angular"
+  | "react"
+  | "vue"
+  | "vanilla";
+
+export interface ProjectLink {
+  label: string;
+  href: string;
+}
+
+export interface Project {
+  id: string;
+  kind: string;
+  title: string;
+  stack: string[];
+  image: string;
+  tags: ProjectTag[];
+  links: ProjectLink[];
+}
+
+export const projectFilters: { value: ProjectTag | "all"; label: string }[] = [
+  { value: "all", label: "All" },
+  { value: "branding", label: "Website Branding" },
+  { value: "angular", label: "Angular.js" },
+  { value: "react", label: "React.js" },
+  { value: "vue", label: "Vue.js" },
+  { value: "vanilla", label: "Vanilla JS" },
+];
+
+export const projects: Project[] = [
+  {
+    id: "dod-site",
+    kind: "Web Development",
+    title: "Doctor on Demand — main site",
+    stack: ["Vue.js", "Less", "AWS"],
+    image: "/assets/img/works/dod-site.png",
+    tags: ["branding", "vue", "angular"],
+    links: [
+      { label: "Live", href: "https://doctorondemand.com/" },
+      { label: "Vue version", href: "https://beta.doctorondemand.com/" },
+    ],
+  },
+  {
+    id: "included-site",
+    kind: "Web Development",
+    title: "Included Health — main site",
+    stack: ["WordPress", "JavaScript"],
+    image: "/assets/img/works/included-site.png",
+    tags: ["branding"],
+    links: [{ label: "Live", href: "https://includedhealth.com/" }],
+  },
+  {
+    id: "dod-dashboard",
+    kind: "Web Development",
+    title: "Doctor on Demand — member application",
+    stack: ["Vue.js", "AngularJS"],
+    image: "/assets/img/works/dashboard.png",
+    tags: ["branding", "vue", "angular"],
+    links: [
+      {
+        label: "Live",
+        href: "https://patient.doctorondemand.com/patient/#/home",
+      },
+    ],
+  },
+  {
+    id: "storyboardart",
+    kind: "Web Development",
+    title: "Storyboard Art application",
+    stack: ["WordPress CMS"],
+    image: "/assets/img/works/storyboardart.png",
+    tags: ["branding", "angular"],
+    links: [{ label: "Live", href: "https://storyboardart.org/" }],
+  },
+  {
+    id: "pagination-search",
+    kind: "Front-end Development",
+    title: "Student profiles — search and pagination",
+    stack: ["Vanilla JS", "JSON"],
+    image: "/assets/img/works/pagination-search.png",
+    tags: ["vanilla"],
+    links: [
+      {
+        label: "Live",
+        href: "https://loveclari.github.io/data-pagination-filtering/",
+      },
+      {
+        label: "Code",
+        href: "https://github.com/loveclari/data-pagination-filtering",
+      },
+    ],
+  },
+  {
+    id: "interactive-form",
+    kind: "Front-end Development",
+    title: "Conference registration form",
+    stack: ["Vanilla JS"],
+    image: "/assets/img/works/conference-form.png",
+    tags: ["vanilla"],
+    links: [
+      { label: "Live", href: "https://loveclari.github.io/interactive-form/" },
+      { label: "Code", href: "https://github.com/loveclari/interactive-form" },
+    ],
+  },
+  {
+    id: "dod-registrations",
+    kind: "Web Development",
+    title: "Doctor on Demand — enterprise registrations",
+    stack: ["AngularJS", "Vue.js"],
+    image: "/assets/img/works/registrations.png",
+    tags: ["branding", "angular"],
+    links: [
+      {
+        label: "Live",
+        href: "https://patient.doctorondemand.com/register/?partner=walmart-care",
+      },
+    ],
+  },
+  {
+    id: "ih-payments",
+    kind: "Web Development",
+    title: "Included Health — payments API",
+    stack: ["React", "GraphQL", "Bootstrap", "Braintree API"],
+    image: "/assets/img/works/payment.png",
+    tags: ["react"],
+    links: [{ label: "Live", href: "https://app.grandrounds.com/" }],
+  },
+  {
+    id: "weather-app",
+    kind: "Web Development",
+    title: "Weather API — personal project",
+    stack: ["JavaScript", "Node.js", "Express.js"],
+    image: "/assets/img/works/weather.png",
+    tags: ["vanilla"],
+    links: [
+      { label: "Code", href: "https://github.com/loveclari/weather-app" },
+    ],
+  },
+];
+
+export const emailProjects: Project[] = [
+  {
+    id: "email-ih",
+    kind: "Email Development",
+    title: "Doctor on Demand — member communications",
+    stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
+    image: "/assets/img/works/email-ih.png",
+    tags: [],
+    links: [
+      {
+        label: "View in browser",
+        href: "https://view.ex.doctorondemand.com/?qs=698ae75d0676412cc55e27069fa97946e329c91a7c7c4dac9ab3376fc4fcee702687eb7b319be32ff0da75e2dc743c82edd2408605d29204cea55fb5671ffec21323885220cc1bb8ab0e8574a9622ae9",
+      },
+    ],
+  },
+  {
+    id: "email-dod",
+    kind: "Email Development",
+    title: "Doctor on Demand — visit follow-up",
+    stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
+    image: "/assets/img/works/email-dod.png",
+    tags: [],
+    links: [
+      {
+        label: "View in browser",
+        href: "https://view.ex.doctorondemand.com/?qs=312d7a0611be99d49a547fe4d32081f1eb4a101ef1ca9b6c32882960a7bfaffe57ffaca28d50d632934e1bf9a8e6fd95d4b38ae9c0c8a3792fdb0a0c4948e70dccc135cb83ee7a7f9e19068bcb777726",
+      },
+    ],
+  },
+  {
+    id: "email-mkt",
+    kind: "Email Development",
+    title: "Doctor on Demand — marketing campaign",
+    stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
+    image: "/assets/img/works/email-mkt.png",
+    tags: [],
+    links: [],
+  },
+  {
+    id: "welcome-email",
+    kind: "Email Development",
+    title: "Doctor on Demand — welcome series",
+    stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
+    image: "/assets/img/works/welcome-email.png",
+    tags: [],
+    links: [],
+  },
+  {
+    id: "visit-ih",
+    kind: "Email Development",
+    title: "Included Health — member communications",
+    stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
+    image: "/assets/img/works/visit-ih.png",
+    tags: [],
+    links: [],
+  },
+  {
+    id: "visit-dod-ih",
+    kind: "Email Development",
+    title: "Included Health — visit reminders",
+    stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
+    image: "/assets/img/works/visit-dod-ih.png",
+    tags: [],
+    links: [],
+  },
+];

@@ -1,17 +1,26 @@
 {
   "name": "clari-portfolio",
-  "version": "1.0.0",
-  "description": "My Nuxt.js project",
-  "author": "Clari",
+  "version": "2.0.0",
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.23"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxt/fonts": "^0.14.0",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.3.11"
+  }
 }

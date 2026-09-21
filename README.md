@@ -1,23 +1,46 @@
-# clari - web designing with nux.js server
+# clari-portfolio
 
-> My Nuxt.js project
+Personal portfolio for Clarissa Celestino — front-end developer, San Francisco Bay Area.
 
-## Build Setup
+Built with [Nuxt 4](https://nuxt.com) and Vue 3, prerendered to static files.
+
+## Requirements
+
+Node 22.19 or newer. The repo pins a version in `.nvmrc`:
 
 ```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+nvm use
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-# clari-portfolio
+## Development
+
+```bash
+npm install
+npm run dev      # http://localhost:3000
+```
+
+## Build
+
+```bash
+npm run generate   # static site in .output/public
+npm run preview    # preview the build locally
+npm run typecheck  # vue-tsc
+```
+
+`npm run generate` produces a fully static site, so it can be deployed to any
+static host (Netlify, Vercel, AWS Amplify, GitHub Pages).
+
+## Structure
+
+```
+app/
+  assets/css/main.css   design tokens + all component styles
+  components/           SiteHeader, SiteFooter, WorkCard, WorkGallery, TypedText, …
+  data/projects.ts      project + email content, typed
+  layouts/default.vue
+  pages/                index, about, projects, emails
+public/assets/          images and resume PDFs
+```
+
+Project and email content lives in `app/data/projects.ts` — add an entry there
+and it shows up in the grid and the filters automatically.
