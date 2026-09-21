@@ -31,6 +31,28 @@ export const projectFilters: { value: ProjectTag | "all"; label: string }[] = [
 
 export const projects: Project[] = [
   {
+    id: "noontime-concerts",
+    kind: "Web Development",
+    title: "Noontime Concerts — live streaming and memberships",
+    stack: [
+      "WordPress",
+      "Divi",
+      "Stripe",
+      "Vimeo API",
+      "Restrict Content Pro",
+      "Easy Digital Downloads",
+    ],
+    image: "/assets/img/works/noontime-concerts.jpg",
+    tags: ["branding"],
+    links: [
+      { label: "Live", href: "https://www.noontimeconcerts.org/" },
+      {
+        label: "Case study",
+        href: "https://www.pixelculture.org/portfolio/noontime-concerts",
+      },
+    ],
+  },
+  {
     id: "dod-site",
     kind: "Web Development",
     title: "Doctor on Demand — main site",
