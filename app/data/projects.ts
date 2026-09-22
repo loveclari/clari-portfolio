@@ -41,6 +41,21 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://www.pixelculture.org/" }],
   },
   {
+    id: "skkn",
+    kind: "Web Design & Development",
+    title: "SKKN BY KIM — Shopify storefront",
+    stack: ["Shopify", "Liquid", "JavaScript"],
+    image: "/assets/img/works/skkn.jpg",
+    imagePosition: "center",
+    tags: ["branding"],
+    links: [
+      {
+        label: "Archive",
+        href: "https://web.archive.org/web/20250328163826/https://skknbykim.com/",
+      },
+    ],
+  },
+  {
     id: "publishpass",
     kind: "Product Development",
     title: "PublishPass — pre-publish QA for marketing teams",
