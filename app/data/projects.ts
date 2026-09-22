@@ -112,6 +112,21 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://nextgem.gia.edu/" }],
   },
   {
+    id: "pure-storage-academy",
+    kind: "Web Development",
+    title: "Pure Storage Academy — training catalog",
+    stack: ["Intellum", "JavaScript", "Adobe Analytics"],
+    image: "/assets/img/works/pure-storage-academy.jpg",
+    imagePosition: "center",
+    tags: ["branding", "vanilla"],
+    links: [
+      {
+        label: "Live",
+        href: "https://academy.purestorage.com/student/catalog",
+      },
+    ],
+  },
+  {
     id: "gemtrip",
     kind: "Product Development",
     title: "GIA GemTrip — educator portal",
