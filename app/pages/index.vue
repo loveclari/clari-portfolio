@@ -28,7 +28,6 @@ const featured = projects.slice(0, 3);
                 'Full-stack Developer.',
                 'Web Designer.',
                 'Web Consultant.',
-                'Email Developer.',
               ]"
             />
           </p>

@@ -70,6 +70,10 @@ export default defineNuxtConfig({
     ],
   },
 
+  routeRules: {
+    "/emails": { redirect: "/projects" },
+  },
+
   nitro: {
     prerender: {
       crawlLinks: true,

@@ -258,23 +258,9 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://app.grandrounds.com/" }],
   },
   {
-    id: "weather-app",
-    kind: "Web Development",
-    title: "Weather API — personal project",
-    stack: ["JavaScript", "Node.js", "Express.js"],
-    image: "/assets/img/works/weather.png",
-    tags: ["vanilla"],
-    links: [
-      { label: "Code", href: "https://github.com/loveclari/weather-app" },
-    ],
-  },
-];
-
-export const emailProjects: Project[] = [
-  {
     id: "email-ih",
     kind: "Email Development",
-    title: "Doctor on Demand — member communications",
+    title: "Doctor on Demand — Marketing Cloud member emails",
     stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
     image: "/assets/img/works/email-ih.png",
     tags: [],
@@ -288,7 +274,7 @@ export const emailProjects: Project[] = [
   {
     id: "email-dod",
     kind: "Email Development",
-    title: "Doctor on Demand — visit follow-up",
+    title: "Doctor on Demand — Marketing Cloud visit follow-up",
     stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
     image: "/assets/img/works/email-dod.png",
     tags: [],
@@ -300,39 +286,14 @@ export const emailProjects: Project[] = [
     ],
   },
   {
-    id: "email-mkt",
-    kind: "Email Development",
-    title: "Doctor on Demand — marketing campaign",
-    stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
-    image: "/assets/img/works/email-mkt.png",
-    tags: [],
-    links: [],
-  },
-  {
-    id: "welcome-email",
-    kind: "Email Development",
-    title: "Doctor on Demand — welcome series",
-    stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
-    image: "/assets/img/works/welcome-email.png",
-    tags: [],
-    links: [],
-  },
-  {
-    id: "visit-ih",
-    kind: "Email Development",
-    title: "Included Health — member communications",
-    stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
-    image: "/assets/img/works/visit-ih.png",
-    tags: [],
-    links: [],
-  },
-  {
-    id: "visit-dod-ih",
-    kind: "Email Development",
-    title: "Included Health — visit reminders",
-    stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
-    image: "/assets/img/works/visit-dod-ih.png",
-    tags: [],
-    links: [],
+    id: "weather-app",
+    kind: "Web Development",
+    title: "Weather API — personal project",
+    stack: ["JavaScript", "Node.js", "Express.js"],
+    image: "/assets/img/works/weather.png",
+    tags: ["vanilla"],
+    links: [
+      { label: "Code", href: "https://github.com/loveclari/weather-app" },
+    ],
   },
 ];

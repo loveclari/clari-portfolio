@@ -3,7 +3,6 @@ const links = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
   { to: "/projects", label: "Projects" },
-  { to: "/emails", label: "Emails" },
 ];
 
 const open = ref(false);
