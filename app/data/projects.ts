@@ -44,10 +44,10 @@ export const projects: Project[] = [
     id: "skkn",
     kind: "Web Design & Development",
     title: "SKKN BY KIM — Shopify storefront",
-    stack: ["Shopify", "Liquid", "JavaScript"],
+    stack: ["Shopify", "Liquid", "Vue", "Adobe Analytics"],
     image: "/assets/img/works/skkn.jpg",
     imagePosition: "center",
-    tags: ["branding"],
+    tags: ["branding", "vue"],
     links: [
       {
         label: "Archive",
