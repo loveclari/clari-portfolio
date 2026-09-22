@@ -89,6 +89,15 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://gemkidseducators.gia.edu/s/login/" }],
   },
   {
+    id: "collective",
+    kind: "Product Development",
+    title: "GIA Collective — alumni community",
+    stack: ["Salesforce", "Apex", "Lightning"],
+    image: "/assets/img/works/collective.jpg",
+    tags: ["branding"],
+    links: [{ label: "Live", href: "https://collective.gia.edu/collective/s/" }],
+  },
+  {
     id: "noontime-concerts",
     kind: "Web Development",
     title: "Noontime Concerts — live streaming and memberships",
