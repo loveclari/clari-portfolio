@@ -58,6 +58,21 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://publishguard.vercel.app/" }],
   },
   {
+    id: "b2b-checkout",
+    kind: "Product Development",
+    title: "B2B checkout document upload — Shopify Plus",
+    stack: ["Shopify", "Checkout UI", "React", "TypeScript"],
+    image: "/assets/img/works/b2b-checkout.jpg",
+    imagePosition: "center",
+    tags: ["react"],
+    links: [
+      {
+        label: "Code",
+        href: "https://github.com/loveclari/b2b-checkout-document-upload",
+      },
+    ],
+  },
+  {
     id: "gia-rarity",
     kind: "Product Development",
     title: "GIA Rarity App — diamond 4Cs explorer",
