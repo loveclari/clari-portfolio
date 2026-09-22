@@ -71,6 +71,15 @@ export const projects: Project[] = [
     ],
   },
   {
+    id: "nextgem",
+    kind: "Product Development",
+    title: "GIA NextGem — retail jewelry training",
+    stack: ["Shopify", "Salesforce", "LearnUpon"],
+    image: "/assets/img/works/nextgem.jpg",
+    tags: ["branding"],
+    links: [{ label: "Live", href: "https://nextgem.gia.edu/" }],
+  },
+  {
     id: "noontime-concerts",
     kind: "Web Development",
     title: "Noontime Concerts — live streaming and memberships",
