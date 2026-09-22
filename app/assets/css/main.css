@@ -3,8 +3,9 @@
    Replaces Bootstrap 4, style.css, responsive.css and the icon fonts.
    ========================================================================== */
 
-:root {
-  color-scheme: light dark;
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
 
   /* Palette — warm paper and ink, with a terracotta accent */
   --paper: #fbf9f6;
@@ -46,7 +47,8 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --paper: #12100e;
     --paper-raised: #1c1916;
     --paper-sunken: #0d0b0a;
@@ -61,6 +63,23 @@
     --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 24px rgb(0 0 0 / 0.35);
     --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.4), 0 18px 44px rgb(0 0 0 / 0.55);
   }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #12100e;
+  --paper-raised: #1c1916;
+  --paper-sunken: #0d0b0a;
+  --ink: #f5f1ec;
+  --ink-soft: #c3b9ae;
+  --ink-faint: #8e837a;
+  --line: #2e2823;
+  --accent: #e8735a;
+  --accent-soft: #33201b;
+  --accent-ink: #1a0f0c;
+  --highlight: #5bc5bd;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 24px rgb(0 0 0 / 0.35);
+  --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.4), 0 18px 44px rgb(0 0 0 / 0.55);
 }
 
 /* --------------------------------------------------------------- Reset -- */
@@ -228,6 +247,38 @@ a {
   padding-block: 0.9rem;
 }
 
+.nav__end {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.theme-toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--paper-raised);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: color 0.18s var(--ease), background 0.18s var(--ease),
+    border-color 0.18s var(--ease), transform 0.18s var(--ease);
+}
+
+.theme-toggle:hover {
+  color: var(--ink);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.theme-toggle svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
 .nav__brand {
   display: inline-flex;
   align-items: center;
@@ -247,8 +298,12 @@ a {
   border-radius: 9px;
   background: var(--accent);
   color: var(--accent-ink);
-  font-size: 0.95rem;
-  font-weight: 700;
+}
+
+.nav__mark svg {
+  display: block;
+  width: 1.7rem;
+  height: 1.7rem;
 }
 
 .nav__links {

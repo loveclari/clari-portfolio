@@ -52,6 +52,12 @@ export default defineNuxtConfig({
         },
       ],
       link: [{ rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
+      script: [
+        {
+          innerHTML: `(function(){try{var t=localStorage.getItem("theme");if(t!=="light"&&t!=="dark"){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){}})();`,
+          tagPosition: "head",
+        },
+      ],
     },
   },
 
