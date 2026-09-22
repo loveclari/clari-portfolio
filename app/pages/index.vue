@@ -2,9 +2,9 @@
 import { projects } from "~/data/projects";
 
 useSeoMeta({
-  title: "Clarissa Celestino — Front-end Developer",
+  title: "Clarissa Celestino — Full-stack Developer",
   description:
-    "Front-end developer in the San Francisco Bay Area building fast, accessible interfaces with Vue, React, and modern JavaScript.",
+    "Full-stack developer in the San Francisco Bay Area building fast, accessible interfaces and the APIs, auth, and payments behind them.",
 });
 
 const featured = projects.slice(0, 3);
@@ -13,7 +13,9 @@ const featured = projects.slice(0, 3);
 <template>
   <div>
     <section class="hero">
-      <div class="shell hero__grid">
+      <HeroBackdrop />
+
+      <div class="shell hero__grid hero__grid--solo">
         <div>
           <p class="hero__greeting">Hi, I'm</p>
           <h1 class="hero__name">Clarissa<span class="dot">.</span></h1>
@@ -23,6 +25,7 @@ const featured = projects.slice(0, 3);
             <TypedText
               :phrases="[
                 'Front-end Developer.',
+                'Full-stack Developer.',
                 'Web Designer.',
                 'Web Consultant.',
                 'Email Developer.',
@@ -31,9 +34,9 @@ const featured = projects.slice(0, 3);
           </p>
 
           <p class="hero__blurb">
-            I'm a <strong>front-end developer</strong> passionate about building
-            great user experiences, using JavaScript frameworks with SPAs and
-            JAMstack sites.
+            I'm a <strong>full-stack developer</strong> passionate about
+            building great user experiences — from the interface down to the
+            APIs, auth, and payments behind it.
           </p>
 
           <div class="hero__actions">
@@ -44,15 +47,6 @@ const featured = projects.slice(0, 3);
           </div>
         </div>
 
-        <div class="hero__portrait">
-          <img
-            src="/assets/img/hero/clari-dev.png"
-            alt="Illustration of Clarissa at work"
-            width="600"
-            height="600"
-            fetchpriority="high"
-          />
-        </div>
       </div>
     </section>
 

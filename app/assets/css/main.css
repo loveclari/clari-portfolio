@@ -370,6 +370,9 @@ a {
 
 .hero {
   position: relative;
+  display: grid;
+  align-items: center;
+  min-height: min(88vh, 780px);
   padding-block: clamp(3.5rem, 2rem + 7vw, 7rem) var(--section-y);
   overflow: hidden;
 }
@@ -392,6 +395,8 @@ a {
 }
 
 .hero__grid {
+  position: relative;
+  z-index: 1;
   display: grid;
   gap: clamp(2.5rem, 1rem + 6vw, 4.5rem);
   align-items: center;
@@ -401,6 +406,32 @@ a {
   .hero__grid {
     grid-template-columns: 1.05fr 0.95fr;
   }
+
+  .hero__grid--solo {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Typographic hero: no image, so the name carries the page */
+.hero__grid--solo {
+  justify-items: center;
+  text-align: center;
+  padding-block: clamp(1rem, 0.5rem + 2vw, 2.5rem) 0;
+}
+
+.hero__grid--solo .hero__name {
+  font-size: clamp(3.2rem, 1.6rem + 8vw, 8rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.hero__grid--solo .hero__blurb {
+  max-width: 52ch;
+  margin-inline: auto;
+}
+
+.hero__grid--solo .hero__actions {
+  justify-content: center;
 }
 
 .hero__greeting {
