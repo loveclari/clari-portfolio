@@ -808,10 +808,17 @@ a {
   }
 }
 
+.story__art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .story__art img {
-  width: 100%;
-  max-width: 380px;
-  margin-inline: auto;
+  width: auto;
+  height: clamp(260px, 36vw, 320px);
+  max-width: min(100%, 460px);
+  object-fit: contain;
 }
 
 .story__title {

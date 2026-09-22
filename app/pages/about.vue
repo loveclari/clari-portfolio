@@ -162,8 +162,8 @@ const stack = [
           <img
             src="/assets/img/about/exercise.svg"
             alt=""
-            width="380"
-            height="300"
+            width="420"
+            height="320"
             loading="lazy"
           />
         </div>
