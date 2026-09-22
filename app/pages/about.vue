@@ -2,21 +2,27 @@
 useSeoMeta({
   title: "About — Clarissa Celestino",
   description:
-    "Clarissa Celestino is a front-end developer in the San Francisco Bay Area, originally from Brazil, with a background in health-tech products.",
+    "Clarissa Celestino is a full-stack developer in the San Francisco Bay Area, originally from Brazil, with a background in health-tech products.",
 });
 
 const stack = [
   "Vue.js",
   "Nuxt",
   "React",
-  "JavaScript",
+  "Next.js",
   "TypeScript",
-  "AngularJS",
+  "JavaScript",
+  "Node.js",
   "HTML & CSS",
   "GraphQL",
+  "Supabase",
+  "Stripe",
+  "Shopify",
+  "Salesforce",
+  "WordPress",
   "AMPscript",
+  "Vercel",
   "AWS Amplify",
-  "Netlify",
 ];
 </script>
 
@@ -26,10 +32,10 @@ const stack = [
       <div class="shell about-hero">
         <div class="about-portrait">
           <img
-            src="/assets/img/about/me.png"
+            src="/assets/img/about/clarissa.jpg"
             alt="Portrait of Clarissa Celestino"
-            width="500"
-            height="500"
+            width="720"
+            height="900"
           />
         </div>
 
@@ -40,13 +46,23 @@ const stack = [
           <div class="prose" style="margin-top: 1.25rem">
             <p>
               My name is Clarissa Celestino and I'm a
-              <strong>front-end developer</strong> based in the San Francisco
+              <strong>full-stack developer</strong> based in the San Francisco
               Bay Area. I'm originally from Brazil, fluent in Portuguese and
               English, with working proficiency in Spanish.
             </p>
             <p>
-              I've worked mostly in the health-tech space, for companies such as
-              Doctor On Demand, Doctorbase, and most recently Included Health.
+              I've spent over a decade building for the web, much of it in
+              health tech at Doctorbase, Doctor On Demand, and Included Health.
+              I'm currently a senior full-stack developer at
+              <strong>GIA.edu</strong>, where I build Next.js applications,
+              design REST and GraphQL APIs in Node.js, and run their Shopify
+              e-commerce integrations.
+            </p>
+            <p>
+              Along the way I've led payments work with Braintree, built
+              registration flows for T-Mobile at Accenture, and developed the
+              Shopify product page for Kim Kardashian's SKKN, which brought in
+              $100M in its first year.
             </p>
           </div>
 
@@ -55,7 +71,11 @@ const stack = [
           </ul>
 
           <div class="hero__actions">
-            <a class="btn btn--primary" href="/assets/CLARISSA-SWE.pdf" download>
+            <a
+              class="btn btn--primary"
+              href="/assets/Clarissa-Celestino-Resume.pdf"
+              download
+            >
               Download resume
             </a>
           </div>
@@ -112,18 +132,25 @@ const stack = [
           </h2>
           <div class="prose">
             <p>
-              As a developer I've worked mainly with single-page applications. I
-              started with AngularJS, soon followed by Vue.js, and now React.
+              I started out building single-page applications — AngularJS
+              first, then Vue.js, and now React and Next.js. Interfaces are
+              still where I'm happiest.
             </p>
             <p>
-              I've also built JAMstack sites with Nuxt.js, Contentful, and
-              Gatsby, along with many other content management systems, and
-              deployed them with AWS Amplify and Netlify.
+              Over time the work grew past the browser. These days I build the
+              APIs, authentication, payments, and integrations that sit behind
+              the interface — REST and GraphQL services in Node.js, Shopify
+              and Braintree for commerce and payments, and AI features on top
+              of the GPT-4 and Claude APIs.
             </p>
             <p>
-              Most recently I've been working with React.js and APIs. As a
-              front-end developer, I've learned to stay flexible with my tools
-              and always look for the best one for the project.
+              I've also built JAMstack sites with Nuxt, Contentful, and Gatsby,
+              worked across WordPress and other content management systems, and
+              deployed to Vercel, AWS Amplify, and Netlify.
+            </p>
+            <p>
+              As a full-stack developer, I've learned to stay flexible with my
+              tools and always look for the best one for the project.
             </p>
           </div>
         </div>
