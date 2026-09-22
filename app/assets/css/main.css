@@ -719,7 +719,7 @@ a {
 .about-hero {
   display: grid;
   gap: clamp(2rem, 1rem + 5vw, 4rem);
-  align-items: center;
+  align-items: stretch;
 }
 
 @media (min-width: 880px) {
@@ -734,6 +734,29 @@ a {
   overflow: hidden;
   background: var(--paper-sunken);
   box-shadow: var(--shadow);
+}
+
+.about-portrait img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top center;
+}
+
+@media (min-width: 880px) {
+  .about-portrait {
+    min-height: 100%;
+  }
+
+  .about-portrait img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+    object-position: top center;
+  }
 }
 
 .social {
