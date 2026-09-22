@@ -7,7 +7,7 @@ const year = new Date().getFullYear();
     <div class="shell footer__inner">
       <div>
         <p class="footer__note">
-          &copy; {{ year }} Clarissa Celestino — Front-end developer, San
+          &copy; {{ year }} Clarissa Celestino — Full-stack developer, San
           Francisco Bay Area.
         </p>
         <p class="footer__built">Built with Nuxt &amp; Vue</p>

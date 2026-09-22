@@ -10,25 +10,25 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: "en" },
-      title: "Clarissa Celestino — Front-end Developer",
+      title: "Clarissa Celestino — Full-stack Developer",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
           name: "description",
           content:
-            "Clarissa Celestino is a front-end developer in the San Francisco Bay Area building fast, accessible interfaces with Vue, React, and modern JavaScript.",
+            "Clarissa Celestino is a full-stack developer in the San Francisco Bay Area building fast, accessible interfaces and the APIs, auth, and payments behind them.",
         },
         { name: "theme-color", content: "#12100e" },
         { property: "og:type", content: "website" },
         {
           property: "og:title",
-          content: "Clarissa Celestino — Front-end Developer",
+          content: "Clarissa Celestino — Full-stack Developer",
         },
         {
           property: "og:description",
           content:
-            "Front-end developer in the San Francisco Bay Area building fast, accessible interfaces.",
+            "Full-stack developer in the San Francisco Bay Area building fast, accessible products end to end.",
         },
         { property: "og:image", content: "/assets/img/hero/clari-dev.png" },
         { name: "twitter:card", content: "summary_large_image" },

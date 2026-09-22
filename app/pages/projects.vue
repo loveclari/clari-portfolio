@@ -4,7 +4,7 @@ import { projects, projectFilters } from "~/data/projects";
 useSeoMeta({
   title: "Projects — Clarissa Celestino",
   description:
-    "Web and front-end development work by Clarissa Celestino, including Doctor on Demand, Included Health, and personal projects.",
+    "Full-stack and front-end development work by Clarissa Celestino, including PublishPass, Noontime Concerts, Doctor on Demand, and Included Health.",
 });
 </script>
 
