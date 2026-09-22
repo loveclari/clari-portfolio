@@ -80,6 +80,15 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://nextgem.gia.edu/" }],
   },
   {
+    id: "gemtrip",
+    kind: "Product Development",
+    title: "GIA GemTrip — educator portal",
+    stack: ["Salesforce"],
+    image: "/assets/img/works/gemtrip.jpg",
+    tags: ["branding"],
+    links: [{ label: "Live", href: "https://gemkidseducators.gia.edu/s/login/" }],
+  },
+  {
     id: "noontime-concerts",
     kind: "Web Development",
     title: "Noontime Concerts — live streaming and memberships",
