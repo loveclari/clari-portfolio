@@ -56,6 +56,21 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://publishguard.vercel.app/" }],
   },
   {
+    id: "gia-rarity",
+    kind: "Product Development",
+    title: "GIA Rarity App — diamond 4Cs explorer",
+    stack: ["Next.js", "React", "TypeScript", "OpenAI", "Vercel"],
+    image: "/assets/img/works/gia-rarity.jpg",
+    tags: ["react"],
+    links: [
+      { label: "Live", href: "https://gem-rarity-ai.vercel.app/" },
+      {
+        label: "Code",
+        href: "https://github.com/loveclari/gem-rarity-ai",
+      },
+    ],
+  },
+  {
     id: "noontime-concerts",
     kind: "Web Development",
     title: "Noontime Concerts — live streaming and memberships",
