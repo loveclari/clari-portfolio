@@ -52,7 +52,7 @@ export const projects: Project[] = [
       "Claude AI",
     ],
     image: "/assets/img/works/publishpass.jpg",
-    tags: ["react"],
+    tags: ["react", "branding"],
     links: [{ label: "Live", href: "https://publishguard.vercel.app/" }],
   },
   {
