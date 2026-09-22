@@ -30,8 +30,26 @@ export default defineNuxtConfig({
           content:
             "Full-stack developer in the San Francisco Bay Area building fast, accessible products end to end.",
         },
-        { property: "og:image", content: "/assets/img/hero/clari-dev.png" },
+        {
+          property: "og:url",
+          content: "https://www.clarissacelestino.dev",
+        },
+        {
+          property: "og:image",
+          content: "https://www.clarissacelestino.dev/og.jpg",
+        },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
+        {
+          property: "og:image:alt",
+          content:
+            "Clarissa Celestino, full-stack developer in the San Francisco Bay Area, with the Golden Gate Bridge drawn in lights",
+        },
         { name: "twitter:card", content: "summary_large_image" },
+        {
+          name: "twitter:image",
+          content: "https://www.clarissacelestino.dev/og.jpg",
+        },
       ],
       link: [{ rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
     },
