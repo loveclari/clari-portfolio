@@ -29,26 +29,34 @@ defineProps<{ project: Project; headingLevel?: "h2" | "h3" }>();
       <p class="work__stack">{{ project.stack.join(" · ") }}</p>
 
       <div v-if="project.links.length" class="work__links">
-        <a
-          v-for="link in project.links"
-          :key="link.href"
-          class="work__link"
-          :href="link.href"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {{ link.label }}
-          <span class="visually-hidden">(opens in a new tab)</span>
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path
-              d="M7 17 17 7M9 7h8v8"
-              stroke="currentColor"
-              stroke-width="2.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </a>
+        <template v-for="link in project.links" :key="link.href">
+          <NuxtLink
+            v-if="link.href.startsWith('/')"
+            class="work__link"
+            :to="link.href"
+          >
+            {{ link.label }}
+          </NuxtLink>
+          <a
+            v-else
+            class="work__link"
+            :href="link.href"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ link.label }}
+            <span class="visually-hidden">(opens in a new tab)</span>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M7 17 17 7M9 7h8v8"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </template>
       </div>
     </div>
   </article>

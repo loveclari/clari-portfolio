@@ -958,6 +958,38 @@ a {
   border: 0;
 }
 
+.email-view {
+  display: grid;
+  justify-items: start;
+  gap: 1rem;
+  max-width: 48rem;
+}
+
+.email-view__back {
+  font-size: var(--step--1);
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.email-view__back:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.email-view .section-title {
+  font-size: var(--step-2);
+}
+
+.email-view__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  background: var(--paper-raised);
+  box-shadow: var(--shadow);
+}
+
 /* Page transitions */
 .page-enter-active,
 .page-leave-active {

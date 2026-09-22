@@ -264,12 +264,7 @@ export const projects: Project[] = [
     stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
     image: "/assets/img/works/email-ih.png",
     tags: [],
-    links: [
-      {
-        label: "View in browser",
-        href: "https://view.ex.doctorondemand.com/?qs=698ae75d0676412cc55e27069fa97946e329c91a7c7c4dac9ab3376fc4fcee702687eb7b319be32ff0da75e2dc743c82edd2408605d29204cea55fb5671ffec21323885220cc1bb8ab0e8574a9622ae9",
-      },
-    ],
+    links: [{ label: "View email", href: "/projects/email-ih" }],
   },
   {
     id: "email-dod",
@@ -278,12 +273,7 @@ export const projects: Project[] = [
     stack: ["AMPscript", "HTML", "CSS", "Salesforce Marketing Cloud"],
     image: "/assets/img/works/email-dod.png",
     tags: [],
-    links: [
-      {
-        label: "View in browser",
-        href: "https://view.ex.doctorondemand.com/?qs=312d7a0611be99d49a547fe4d32081f1eb4a101ef1ca9b6c32882960a7bfaffe57ffaca28d50d632934e1bf9a8e6fd95d4b38ae9c0c8a3792fdb0a0c4948e70dccc135cb83ee7a7f9e19068bcb777726",
-      },
-    ],
+    links: [{ label: "View email", href: "/projects/email-dod" }],
   },
   {
     id: "weather-app",
