@@ -10,6 +10,11 @@ defineProps<{ project: Project; headingLevel?: "h2" | "h3" }>();
       <img
         :src="project.image"
         :alt="`Screenshot of ${project.title}`"
+        :style="
+          project.imagePosition
+            ? { objectPosition: project.imagePosition }
+            : undefined
+        "
         loading="lazy"
         decoding="async"
       />

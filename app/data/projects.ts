@@ -16,6 +16,7 @@ export interface Project {
   title: string;
   stack: string[];
   image: string;
+  imagePosition?: string;
   tags: ProjectTag[];
   links: ProjectLink[];
 }
@@ -52,6 +53,7 @@ export const projects: Project[] = [
       "Claude AI",
     ],
     image: "/assets/img/works/publishpass.jpg",
+    imagePosition: "center",
     tags: ["react", "branding"],
     links: [{ label: "Live", href: "https://publishguard.vercel.app/" }],
   },
