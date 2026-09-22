@@ -48,7 +48,8 @@ const stack = [
               My name is Clarissa Celestino and I'm a
               <strong>full-stack developer</strong> based in the San Francisco
               Bay Area. I'm originally from Brazil, fluent in Portuguese and
-              English, with working proficiency in Spanish.
+              English, with working proficiency in Spanish and conversational
+              Italian.
             </p>
             <p>
               I've spent over a decade building for the web, much of it in
