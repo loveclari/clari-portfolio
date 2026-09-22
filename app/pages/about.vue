@@ -32,10 +32,10 @@ const stack = [
       <div class="shell about-hero">
         <div class="about-portrait">
           <img
-            src="/assets/img/about/clarissa.jpg"
+            src="/assets/img/about/clarissa-portrait.jpg"
             alt="Portrait of Clarissa Celestino"
-            width="720"
-            height="900"
+            width="576"
+            height="1024"
           />
         </div>
 
