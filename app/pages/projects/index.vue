@@ -14,8 +14,8 @@ useSeoMeta({
       <p class="eyebrow">Portfolio</p>
       <h1 class="section-title">Projects<span class="dot">.</span></h1>
       <p class="section-lede" style="margin-bottom: 3rem">
-        Production work in health tech alongside personal builds — filter by the
-        tools involved.
+        Production work across health, education, retail, and the arts — filter
+        by the tools involved.
       </p>
 
       <WorkGallery :items="projects" :filters="projectFilters" />
